@@ -10,7 +10,6 @@ public class primeNumber {
         System.out.println(isPrime(n));
 
     }
-
     public static Boolean isPrime(int n) {
         if (n<=1) {
             return false;
