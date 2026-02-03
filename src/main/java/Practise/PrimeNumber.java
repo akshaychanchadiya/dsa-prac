@@ -1,6 +1,6 @@
 package Practise;
 
-public class primeNumber {
+public class PrimeNumber {
 
     //Check if a Number is Prime
 
