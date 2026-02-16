@@ -19,10 +19,7 @@ public class ChessRankCalculator {
         else if (winCount>0) {
             return "International Master";
         }
-        else if (winCount==0) {
-            return "Master";
-        }
-        return null;
+        return "Master";
     }
 
     public static void main(String[] args) {
