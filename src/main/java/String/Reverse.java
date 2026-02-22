@@ -25,7 +25,7 @@ public class Reverse {
 
             result += r;
 
-            if (j == 0){
+            if (j != a.length-1){
                 result += " ";
             }
         }
