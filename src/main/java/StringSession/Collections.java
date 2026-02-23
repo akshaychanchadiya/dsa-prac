@@ -1,3 +1,5 @@
+package StringSession;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -49,6 +51,9 @@ public class Collections {
         System.out.println(m1.get(2));
 
         m1.put(2, "D"); //UPDATE
+        System.out.println(m1);
+
+        m1.remove(2); //Delete
         System.out.println(m1);
 
     }
