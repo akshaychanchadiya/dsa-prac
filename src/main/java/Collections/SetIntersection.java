@@ -15,12 +15,9 @@ public class SetIntersection {
 
         ArrayList<Integer> a = new ArrayList<>();
 
-        for (int i = 0;i<s1.size();i++) {
-            for (int j = 0;j<s2.size();j++) {
-
-                if (s1.contains(i)== s2.contains(j)) {
-                    a.add(i);
-                }
+        for (int x : s1) {
+            if (s2.contains(x)) {
+                a.add(x);
             }
         }
 
