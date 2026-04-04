@@ -42,7 +42,6 @@ public class MostRepeatedTemperatureDSA {
                 }
             }
         }
-        //return mostRepeated;
         return mostRepeated;
 
 
