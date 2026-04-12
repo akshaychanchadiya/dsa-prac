@@ -11,6 +11,8 @@ public class SortMapByValue {
         map.put(2,"apple");
         map.put(3,"carrot");
 
+        //List<String> values = new ArrayList<>(map.values());
+
         List<String> values = new ArrayList<>(map.values());
 
         Collections.sort(values);
