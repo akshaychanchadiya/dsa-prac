@@ -12,6 +12,8 @@ public class SortMapByKey {
 
         Map<Integer,String> sortedMap = new TreeMap<>(map);
 
+        //System.out.println(sortedMap);
+
         System.out.println(sortedMap);
 
 
