@@ -10,8 +10,6 @@ public class FilterStringsStartingWithVowel {
 
         List<String> a = Arrays.asList("apple","dog","elephant","cat","ice");
 
-        //List<String> b = new ArrayList<>();
-
         List<String> b = new ArrayList<>();
 
         for (String word : a) {
