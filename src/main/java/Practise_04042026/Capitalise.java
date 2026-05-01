@@ -30,6 +30,8 @@ public class Capitalise {
                     sb.append(word.charAt(j));
                 }
             }
+            //sb.append(" ");
+
             sb.append(" ");
 
         }
