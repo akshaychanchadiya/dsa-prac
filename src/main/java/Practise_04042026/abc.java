@@ -20,6 +20,6 @@ public class abc {
             j++;
         }
 
-
+        System.out.println(Arrays.toString(a));
     }
 }
