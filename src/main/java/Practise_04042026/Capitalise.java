@@ -34,7 +34,7 @@ public class Capitalise {
             sb.append(" ");
 
         }
-
+        return sb;
 
     }
 }
