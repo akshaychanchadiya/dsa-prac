@@ -13,10 +13,8 @@ public class MergeTwoMaps {
 
 
         for (int a : m2.keySet()) {
-            m1.put(a,m2.get(a));
+            m1.put(a, m2.get(a));
         }
-
-        //System.out.println(m1);
 
         System.out.println(m1);
 
