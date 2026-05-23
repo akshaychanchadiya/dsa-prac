@@ -18,7 +18,7 @@ public class SortMapByValue {
         for (String n : values) {
             for (Integer m : map.keySet()) {
                 if (map.get(m).equals(n)) {
-                    System.out.println(m + " = " + n);
+                    //System.out.println(m + " = " + n);
                 }
             }
         }
