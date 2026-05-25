@@ -25,8 +25,27 @@ public class MatrixMultiplicationDSANOSTUB {
 
         for(int i=0; i < r2;i++) {
             for(int j = 0; j < c2;j++) {
-                a[i][j] = sc.nextInt();
+                b[i][j] = sc.nextInt();
             }
+        }
+
+        int[][] res = new int[r1][c2];
+
+        for (int i = 0; i < r1; i++) {          // row of A
+            for (int j = 0; j < c2; j++) {      // column of B
+                res[i][j] = 0;
+
+                for (int k = 0; k < c1; k++) {  // move across A row and B column
+                    res[i][j] += a[i][k] * b[k][j];
+                }
+            }
+        }
+
+        for (int i = 0; i < r1; i++) {
+            for (int j = 0; j < c2; j++) {
+                System.out.print(res[i][j] + " ");
+            }
+            System.out.println();
         }
 
 
