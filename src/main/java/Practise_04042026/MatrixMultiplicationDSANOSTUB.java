@@ -45,7 +45,7 @@ public class MatrixMultiplicationDSANOSTUB {
             for (int j = 0; j < c2; j++) {
                 System.out.print(res[i][j] + " ");
             }
-            System.out.println();
+            //System.out.println();
         }
 
 
