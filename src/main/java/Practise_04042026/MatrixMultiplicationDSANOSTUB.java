@@ -36,7 +36,7 @@ public class MatrixMultiplicationDSANOSTUB {
                 res[i][j] = 0;
 
                 for (int k = 0; k < c1; k++) {  // move across A row and B column
-                    res[i][j] += a[i][k] * b[k][j];
+                    //res[i][j] += a[i][k] * b[k][j];
                 }
             }
         }
