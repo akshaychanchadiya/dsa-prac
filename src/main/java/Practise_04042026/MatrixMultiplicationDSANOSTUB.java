@@ -18,7 +18,7 @@ public class MatrixMultiplicationDSANOSTUB {
             }
         }
 
-        //int r2 = sc.nextInt();
+        int r2 = sc.nextInt();
         int c2 = sc.nextInt();
 
         int[][] b = new int[r2][c2];
