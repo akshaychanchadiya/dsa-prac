@@ -10,7 +10,7 @@ public class SubstringDSANOSTUB {
         Scanner sc = new Scanner(System.in);
         String s = sc.nextLine();
 
-        HashSet<String> set = new HashSet<>();
+       // HashSet<String> set = new HashSet<>();
 
         for(int i=0;i<s.length();i++) {
             for(int j=i+1;j<=s.length();j++) {
