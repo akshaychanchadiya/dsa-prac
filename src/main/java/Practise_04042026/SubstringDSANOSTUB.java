@@ -18,6 +18,6 @@ public class SubstringDSANOSTUB {
             }
         }
 
-        //System.out.println(set.size());
+        System.out.println(set.size());
     }
 }
