@@ -26,7 +26,7 @@ public class Capitalise_2 {
             }
             sb.append(" ");
         }
-       // System.out.println(sb);
+       System.out.println(sb);
 
     }
 }
