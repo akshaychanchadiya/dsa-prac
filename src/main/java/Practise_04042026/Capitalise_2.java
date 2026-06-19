@@ -24,7 +24,7 @@ public class Capitalise_2 {
                     sb.append(word.charAt(j));
                 }
             }
-            sb.append(" ");
+           // sb.append(" ");
         }
        System.out.println(sb);
 
