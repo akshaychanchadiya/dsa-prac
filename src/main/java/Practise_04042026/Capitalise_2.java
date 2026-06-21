@@ -14,7 +14,7 @@ public class Capitalise_2 {
         for(int i=0;i< words.length;i++) {
             String word = words[i];
 
-            for (int j =0 ; j< word.length();j++) {
+            //for (int j =0 ; j< word.length();j++) {
                 if(j==0) {
                    String first = String.valueOf(word.charAt(j));
 
