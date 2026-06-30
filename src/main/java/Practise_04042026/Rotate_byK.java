@@ -16,7 +16,5 @@ public class Rotate_byK {
         }
 
         System.out.println(Arrays.toString(r));
-
-
     }
 }
