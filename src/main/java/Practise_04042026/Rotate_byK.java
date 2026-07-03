@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Rotate_byK {
 
     public static void main(String[] args) {
-        //int[] a = {5,8,9,3,6};
+        int[] a = {5,8,9,3,6};
 
         int k = 3;
 
