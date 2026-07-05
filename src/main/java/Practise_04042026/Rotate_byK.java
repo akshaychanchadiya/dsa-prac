@@ -15,6 +15,6 @@ public class Rotate_byK {
             r[(i+k)%a.length] = a[i];
         }
 
-        //System.out.println(Arrays.toString(r));
+        System.out.println(Arrays.toString(r));
     }
 }
