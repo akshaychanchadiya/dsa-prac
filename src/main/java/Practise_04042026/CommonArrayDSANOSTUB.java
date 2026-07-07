@@ -15,7 +15,7 @@ public class CommonArrayDSANOSTUB {
             a[i] = sc.nextInt();
         }
 
-        //int m = sc.nextInt();
+        int m = sc.nextInt();
 
         int[] b = new int[m];
         for(int i = 0; i<m ; i++) {
