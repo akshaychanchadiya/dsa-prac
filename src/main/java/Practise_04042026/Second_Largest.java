@@ -19,7 +19,7 @@ public class Second_Largest {
         for(int j =0 ; j < a.length; j++) {
             if (a[j]>first) {
                 second = first;
-               // first = a[j];
+                first = a[j];
             }
             else if (a[j]<first && a[j]>second) {
                 second = a[j];
