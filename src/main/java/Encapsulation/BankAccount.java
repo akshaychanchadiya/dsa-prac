@@ -12,7 +12,7 @@ public class BankAccount {
         this.balance= balance;
     }
 
-    //public String getAccountNumber() {
+    public String getAccountNumber() {
         return accountNumber;
     }
 
