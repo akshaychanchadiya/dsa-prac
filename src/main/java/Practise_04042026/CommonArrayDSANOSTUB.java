@@ -22,7 +22,7 @@ public class CommonArrayDSANOSTUB {
             b[i] = sc.nextInt();
         }
 
-       // boolean status = false;
+        boolean status = false;
 
         for (int i=0; i < a.length; i++) {
             for (int j=0; j < b.length; j++) {
