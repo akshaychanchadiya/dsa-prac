@@ -16,7 +16,7 @@ public class UniqueChar {
         for (char c : s.toCharArray()) {
             if(set.contains(c)) {
                 unique = false;
-                break;
+                //break;
             }
             set.add(c);
         }
