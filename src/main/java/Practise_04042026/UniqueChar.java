@@ -18,7 +18,7 @@ public class UniqueChar {
                 unique = false;
                 break;
             }
-           // set.add(c);
+            set.add(c);
         }
 
         System.out.println(unique);
