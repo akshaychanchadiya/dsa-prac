@@ -8,7 +8,7 @@ public class UniqueChar {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String a = sc.next();
-        String s = a.toLowerCase();
+       // String s = a.toLowerCase();
         boolean unique = true;
 
         HashSet<Character> set = new HashSet<>();
