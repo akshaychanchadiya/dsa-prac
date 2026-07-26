@@ -29,6 +29,6 @@ public class CapitalizeDSANOSTUB {
             sb.append(" ");
         }
 
-        System.out.println(sb);
+        //System.out.println(sb);
     }
 }
