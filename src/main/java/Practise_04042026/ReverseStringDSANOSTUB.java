@@ -11,7 +11,7 @@ public class ReverseStringDSANOSTUB {
         StringBuilder sb = new StringBuilder(a);
         String reverse = sb.reverse().toString();
 
-        //System.out.println(reverse);
+        System.out.println(reverse);
 
     }
 }
