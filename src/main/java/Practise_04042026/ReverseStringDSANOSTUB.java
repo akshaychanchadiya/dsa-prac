@@ -9,7 +9,7 @@ public class ReverseStringDSANOSTUB {
         String a = sc.nextLine();
 
         StringBuilder sb = new StringBuilder(a);
-        String reverse = sb.reverse().toString();
+        //String reverse = sb.reverse().toString();
 
         System.out.println(reverse);
 
