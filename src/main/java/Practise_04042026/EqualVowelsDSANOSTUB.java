@@ -20,6 +20,6 @@ public class EqualVowelsDSANOSTUB {
             }
         }
 
-        //System.out.println(consonants-vowels);
+        System.out.println(consonants-vowels);
     }
 }
