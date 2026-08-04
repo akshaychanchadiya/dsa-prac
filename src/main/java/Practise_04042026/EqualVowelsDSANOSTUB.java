@@ -9,7 +9,7 @@ public class EqualVowelsDSANOSTUB {
         String a = sc.next();
 
         int vowels = 0;
-        //int consonants = 0;
+        int consonants = 0;
 
         for (char c : a.toCharArray()) {
             if (c == 'a'|| c == 'e'|| c == 'i'|| c == 'o' || c == 'u') {
