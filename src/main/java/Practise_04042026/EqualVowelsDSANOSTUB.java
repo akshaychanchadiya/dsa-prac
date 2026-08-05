@@ -16,7 +16,7 @@ public class EqualVowelsDSANOSTUB {
                 vowels++;
             }
             else {
-                consonants++;
+               // consonants++;
             }
         }
 
