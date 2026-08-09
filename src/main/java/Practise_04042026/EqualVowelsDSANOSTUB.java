@@ -11,7 +11,7 @@ public class EqualVowelsDSANOSTUB {
         int vowels = 0;
         int consonants = 0;
 
-        //for (char c : a.toCharArray()) {
+        for (char c : a.toCharArray()) {
             if (c == 'a'|| c == 'e'|| c == 'i'|| c == 'o' || c == 'u') {
                 vowels++;
             }
