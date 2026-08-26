@@ -27,7 +27,7 @@ public class PyramidPrintingDSAMOCK {
 
             result[i - 1] = row;
         }
-        ///return result;
+        return result;
     }
 
 }
