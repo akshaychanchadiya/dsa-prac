@@ -33,7 +33,7 @@ public class DiamondPrintingDSAMOCK {
                 row.append("* ");
             }
 
-            pattern[i - 1] = row.toString();
+            //pattern[i - 1] = row.toString();
         }
 
         return pattern;
