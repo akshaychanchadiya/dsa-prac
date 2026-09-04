@@ -46,7 +46,7 @@ public class MatrixMultiplicationDSAMOCK {
 
         for (int i = 0; i < rows1 ; i++) {
             for (int j = 0; j < col2; j++) {
-                for (int k = 0; k < col1; k++) {
+               // for (int k = 0; k < col1; k++) {
                     result[i][j] += grid1[i][k] * grid2[k][j];
                 }
             }
