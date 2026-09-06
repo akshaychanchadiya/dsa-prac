@@ -7,7 +7,7 @@ public class UniqueCharacterSet {
     public static void main (String[] args) {
         String a = "banana";
 
-        HashSet<Character> s = new HashSet<>();
+        HashSet<Character> s = new HashSet<>(); //Set
 
         for (char c : a.toCharArray()) {
 
