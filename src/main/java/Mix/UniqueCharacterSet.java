@@ -5,7 +5,7 @@ import java.util.HashSet;
 public class UniqueCharacterSet {
 
     public static void main (String[] args) {
-        String a = "banana";
+        //String a = "banana";
 
         HashSet<Character> s = new HashSet<>(); //Set
 
