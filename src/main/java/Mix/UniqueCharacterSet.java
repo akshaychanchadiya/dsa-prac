@@ -9,9 +9,9 @@ public class UniqueCharacterSet {
 
         HashSet<Character> s = new HashSet<>(); //Set
 
-        for (char c : a.toCharArray()) {
+        for (char d : a.toCharArray()) {
 
-            s.add(c);
+            s.add(d);
         }
         System.out.println(s);
     }
