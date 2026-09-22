@@ -21,7 +21,7 @@ public class LastNonZeroDSAUNIQ {
 
     static int lastNonZero(int a[], int n){
 
-        //int b = 0;
+        int b = 0;
 
         for (int i = 0; i < a.length; i++) {
             if (a[i] != 0) {
