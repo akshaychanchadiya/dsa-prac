@@ -19,12 +19,12 @@ public class LastNonZeroDSAUNIQ {
         }
     }
 
-    static int lastNonZero(int a[], int n){
+    static int lastNonZero(int c[], int n){
 
         int b = 0;
 
         for (int i = 0; i < a.length; i++) {
-            if (a[i] != 0) {
+            if (c[i] != 0) {
                 b = i+1;
             }
         }
