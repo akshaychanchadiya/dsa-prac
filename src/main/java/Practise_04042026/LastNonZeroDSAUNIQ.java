@@ -3,7 +3,7 @@ package Practise_04042026;
 import java.util.Scanner;
 
 public class LastNonZeroDSAUNIQ {
-    public static void main(String args[]){
+    public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int t=sc.nextInt();
         while(t>0)
@@ -19,7 +19,7 @@ public class LastNonZeroDSAUNIQ {
         }
     }
 
-    static int lastNonZero(int a[], int n){
+    static int lastNonZero(int[] a, int n){
 
         int b = 0;
 
