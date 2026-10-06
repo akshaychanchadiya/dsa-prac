@@ -11,7 +11,7 @@ public class UniqueCharacterSet {
 
         for (char d : a.toCharArray()) {
 
-          //  s.add(d);
+            s.add(d);
         }
         System.out.println(s);
     }
