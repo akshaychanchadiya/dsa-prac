@@ -3,7 +3,7 @@ package Mix;
 public class RemoveDigits {
 
     public static void main (String[] args) {
-        String a = "A1k2s3h4a5y6";
+       // String a = "A1k2s3h4a5y6";
 
         StringBuilder sb = new StringBuilder();
 
