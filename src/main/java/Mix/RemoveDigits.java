@@ -7,7 +7,7 @@ public class RemoveDigits {
 
         StringBuilder sb = new StringBuilder();
 
-        for (char c : a.toCharArray()) {
+        //for (char c : a.toCharArray()) {
             if(!Character.isDigit(c)) {
                 sb.append(c);
             }
